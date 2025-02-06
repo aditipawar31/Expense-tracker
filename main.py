@@ -11,7 +11,7 @@ import support
 warnings.filterwarnings("ignore")
 
 app = Flask(__name__)
-app.secret_key = os.urandom(24)
+app.secret_key = '\xdb\xb2oo!^x\x1e\x13\xf4P1\xfc\xbe\xa9\x8drY\x87\x97\xd1\xde\xac\xb1'
 
 @app.route('/')
 def login():
